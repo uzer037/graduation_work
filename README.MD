@@ -13,5 +13,5 @@
 ||| [preprocessor_config](https://drive.google.com/file/d/1iVqbXFMo__WVeX9AgtcDWhd0zfUG9aOt/view?usp=sharing 'Google Drive') | 1 КБ |
 
 ## TensorBoard
-AlexNet - [run 18-04 03_35_16](https://github.com/uzer037/graduation_work/tree/main/run%2018-04%2003_35_16)
+AlexNet - [run 18-04 03_35_16](https://github.com/uzer037/graduation_work/tree/main/run%2018-04%2003_35_16) \
 SwinForImageClassification - [Apr19_02-53-03_DESKTOP-4G8PMEV](https://github.com/uzer037/graduation_work/tree/main/test_trainer/runs/Apr19_02-53-03_DESKTOP-4G8PMEV)
