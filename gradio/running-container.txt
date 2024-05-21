@@ -1,0 +1,5 @@
+1) Build
+docker build -t gradio-app .
+
+2) Run
+docker run -p 7860:7860 gradio-app

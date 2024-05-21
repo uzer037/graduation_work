@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" version="1.0">
+ <g class="layer">
+  <title>Layer 1</title>
+  <ellipse cx="257" cy="255.5" fill="#ffffff" id="svg_3" rx="202.5" ry="201.5" stroke="#000000"/>
+  <g fill="#000000" id="svg_1" transform="translate(0 512) matrix(0.1 0 0 -0.1 0 0)">
+   <path d="m2345,4629c-393,-41 -793,-208 -1101,-460c-535,-437 -822,-1127 -754,-1810c73,-719 510,-1349 1155,-1665c493,-241 1045,-279 1565,-108c781,257 1337,951 1420,1773c54,538 -115,1093 -462,1519c-438,536 -1134,823 -1823,751zm55,-2069l0,-1750l-22,0c-13,0 -63,7 -113,16c-729,126 -1299,690 -1437,1422c-32,168 -32,456 0,624c105,556 453,1015 961,1268c167,83 448,165 579,169l32,1l0,-1750z" id="svg_2"/>
+  </g>
+ </g>
+</svg>
