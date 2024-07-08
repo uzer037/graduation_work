@@ -18,7 +18,7 @@ description = """
 
 
 def format_score(score: float, thr: float) -> str:
-    return f"Качество: {round(score * 100, 2)} ({'хорошее' if score >= thr else 'плохое'})"
+    return f"{'✅' if score >= thr else '❌'} Качество: {round(score * 100, 2)} ({'хорошее' if score >= thr else 'плохое'})"
 
 
 def get_gallery_value(files: list, scores, thr: float) -> list[tuple]:
@@ -44,7 +44,7 @@ with gr.Blocks(theme=gr.themes.Base()) as demo:
         description_label = gr.Markdown(description)
         toggle_dark = gr.Button(value="Темная/Светлая тема", icon="img/dark-mode.svg", elem_id="toggle_dark")
         gallery = gr.Gallery(columns=3, show_download_button=False, show_share_button=False, show_label=False)
-        thr_slider = gr.Slider(value=round(default_threshold*100), label="Порог точности определения")
+        thr_slider = gr.Slider(value=round(default_threshold*100), minimum=50, step=1, label="Порог точности определения")
         with gr.Row(visible=False) as post_upload_block:
             download_btn = gr.DownloadButton(label="Скачать результаты", variant="primary")
             download_block = gr.File(label="Скачать файлы", visible=False)
@@ -107,4 +107,4 @@ with gr.Blocks(theme=gr.themes.Base()) as demo:
         }
         """)
 
-demo.launch(allowed_paths=["./checks/*"], share=False)
+demo.launch(allowed_paths=["./checks/*"], share=True)
